@@ -1,20 +1,30 @@
-.cont {
-    border-left: 3px solid cadetblue;
-    padding-left: 10px;
-}
-
-.str {
-    margin-bottom: 10px;
-}
-
-.img {
-    width: 100%;
-    height: 150px;
-    background-image: url(resources/watr.jpg);
-    background-size: 800px;
-    background-position-y: center;
-}
-
 .x {
-    color: crimson;
+    background-color: #bbd4de;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ttl {
+    background-color: #bbd4de;
+    font-weight: bold;
+    padding: 0px 5px 0px 0px;
+}
+
+.cnt {
+    margin: 5px 10px;
+}
+
+.st {
+    padding-left: 4px;
+    border-left: 2.5px solid #bbd4de;
+}
+
+footer {
+    padding-top: 0px;
+    border: none;
+    display: flex;
+    justify-content: right;
 }
